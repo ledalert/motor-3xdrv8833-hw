@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# VREG_3:in_1:gnd_2:out
+#
+DEF VREG_3:in_1:gnd_2:out U 0 40 Y Y 1 F N
+F0 "U" 100 -200 60 H V C CNN
+F1 "VREG_3:in_1:gnd_2:out" 50 200 60 H V C CNN
+F2 "" 600 350 60 H V C CNN
+F3 "" 600 350 60 H V C CNN
+DRAW
+S -200 100 250 -100 0 1 0 N
+X Gnd 1 0 -300 200 U 50 50 1 1 W
+X Out 2 450 50 200 L 50 50 1 1 w
+X In 3 -400 50 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# VREG_1:in_2:gnd_3:out
+#
+DEF VREG_1:in_2:gnd_3:out U 0 40 Y Y 1 F N
+F0 "U" 100 -200 60 H V C CNN
+F1 "VREG_1:in_2:gnd_3:out" 50 200 60 H V C CNN
+F2 "" 600 350 60 H V C CNN
+F3 "" 600 350 60 H V C CNN
+DRAW
+S -200 100 250 -100 0 1 0 N
+X Gnd 2 0 -300 200 U 50 50 1 1 W
+X Out 3 450 50 200 L 50 50 1 1 w
+X In 1 -400 50 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
