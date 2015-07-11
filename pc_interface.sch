@@ -1,0 +1,340 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32
+LIBS:vreg
+LIBS:drv8833c
+LIBS:ft231x
+LIBS:usb_micro_b
+LIBS:ver1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FT231X U6
+U 1 1 55A28830
+P 7600 3500
+F 0 "U6" H 7050 4050 60  0000 C CNN
+F 1 "FT231X" H 7100 2900 60  0000 C CNN
+F 2 "qfn20:QFN_20-1EP" H 6900 3400 60  0001 C CNN
+F 3 "" H 6900 3400 60  0000 C CNN
+	1    7600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_Micro_B P6
+U 1 1 55A28C68
+P 2700 3350
+F 0 "P6" H 2600 2900 60  0000 C CNN
+F 1 "USB_Micro_B" V 2400 3350 60  0000 C CNN
+F 2 "" H 2700 3350 60  0001 C CNN
+F 3 "" H 2700 3350 60  0000 C CNN
+	1    2700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3550 3200 3550
+Wire Wire Line
+	3200 3550 3200 4750
+Wire Wire Line
+	3100 4750 7700 4750
+Wire Wire Line
+	7500 4750 7500 4200
+Wire Wire Line
+	7600 4750 7600 4200
+Connection ~ 7500 4750
+Wire Wire Line
+	7700 4750 7700 4200
+Connection ~ 7600 4750
+NoConn ~ 3050 3450
+$Comp
+L C C22
+U 1 1 55A28D61
+P 4500 4450
+F 0 "C22" H 4500 4550 40  0000 L CNN
+F 1 "C" H 4506 4365 40  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 4538 4300 30  0001 C CNN
+F 3 "" H 4500 4450 60  0000 C CNN
+	1    4500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C24
+U 1 1 55A28FEC
+P 5150 4450
+F 0 "C24" H 5150 4550 40  0000 L CNN
+F 1 "C" H 5156 4365 40  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 5188 4300 30  0001 C CNN
+F 3 "" H 5150 4450 60  0000 C CNN
+	1    5150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3150 5150 3150
+$Comp
+L C C20
+U 1 1 55A2903D
+P 3500 4450
+F 0 "C20" H 3500 4550 40  0000 L CNN
+F 1 "C" H 3506 4365 40  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 3538 4300 30  0001 C CNN
+F 3 "" H 3500 4450 60  0000 C CNN
+	1    3500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C21
+U 1 1 55A29061
+P 3750 4450
+F 0 "C21" H 3750 4550 40  0000 L CNN
+F 1 "C" H 3756 4365 40  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 3788 4300 30  0001 C CNN
+F 3 "" H 3750 4450 60  0000 C CNN
+	1    3750 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4650 3500 4750
+Connection ~ 3500 4750
+Wire Wire Line
+	3750 4650 3750 4750
+Connection ~ 3750 4750
+Wire Wire Line
+	3500 4250 3500 3250
+Connection ~ 3500 3250
+Wire Wire Line
+	3750 4250 3750 3350
+Connection ~ 3750 3350
+$Comp
+L R R18
+U 1 1 55A290FD
+P 6300 3350
+F 0 "R18" V 6380 3350 40  0000 C CNN
+F 1 "R" V 6307 3351 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603_r" V 6230 3350 30  0001 C CNN
+F 3 "" H 6300 3350 30  0000 C CNN
+	1    6300 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R17
+U 1 1 55A29274
+P 6300 3250
+F 0 "R17" V 6380 3250 40  0000 C CNN
+F 1 "R" V 6307 3251 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603_r" V 6230 3250 30  0001 C CNN
+F 3 "" H 6300 3250 30  0000 C CNN
+	1    6300 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 3250 6550 3250
+Wire Wire Line
+	6550 3350 6800 3350
+Wire Wire Line
+	3050 3350 6050 3350
+Wire Wire Line
+	3050 3250 6050 3250
+$Comp
+L LED D6
+U 1 1 55A296AB
+P 5900 3850
+F 0 "D6" H 5900 3950 50  0000 C CNN
+F 1 "LED" H 5900 3750 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 5900 3850 60  0001 C CNN
+F 3 "" H 5900 3850 60  0000 C CNN
+	1    5900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D7
+U 1 1 55A29844
+P 5900 4200
+F 0 "D7" H 5900 4300 50  0000 C CNN
+F 1 "LED" H 5900 4100 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 5900 4200 60  0001 C CNN
+F 3 "" H 5900 4200 60  0000 C CNN
+	1    5900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 55A29887
+P 5450 4200
+F 0 "R16" V 5530 4200 40  0000 C CNN
+F 1 "R" V 5457 4201 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603_r" V 5380 4200 30  0001 C CNN
+F 3 "" H 5450 4200 30  0000 C CNN
+	1    5450 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 55A29915
+P 5450 3850
+F 0 "R15" V 5530 3850 40  0000 C CNN
+F 1 "R" V 5457 3851 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603_r" V 5380 3850 30  0001 C CNN
+F 3 "" H 5450 3850 30  0000 C CNN
+	1    5450 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R14
+U 1 1 55A2A093
+P 4150 4400
+F 0 "R14" V 4230 4400 40  0000 C CNN
+F 1 "R" V 4157 4401 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603_r" V 4080 4400 30  0001 C CNN
+F 3 "" H 4150 4400 30  0000 C CNN
+	1    4150 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R13
+U 1 1 55A2A0DF
+P 4150 3800
+F 0 "R13" V 4230 3800 40  0000 C CNN
+F 1 "R" V 4157 3801 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603_r" V 4080 3800 30  0001 C CNN
+F 3 "" H 4150 3800 30  0000 C CNN
+	1    4150 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 4050 4150 4150
+Text HLabel 3100 4750 0    60   Input ~ 0
+GND
+Connection ~ 3200 4750
+Wire Wire Line
+	6800 3450 4300 3450
+Wire Wire Line
+	4300 3450 4300 4100
+Wire Wire Line
+	4300 4100 4150 4100
+Connection ~ 4150 4100
+Wire Wire Line
+	4150 4650 4150 4750
+Connection ~ 4150 4750
+Wire Wire Line
+	4150 3050 4150 3550
+Wire Wire Line
+	6800 3100 4500 3100
+Wire Wire Line
+	4500 2550 4500 4250
+Wire Wire Line
+	4500 4650 4500 4750
+Connection ~ 4500 4750
+Wire Wire Line
+	7600 2800 7600 2550
+Wire Wire Line
+	7600 2550 4500 2550
+Connection ~ 4500 3100
+Wire Wire Line
+	6800 3700 6250 3700
+Wire Wire Line
+	6250 3700 6250 3850
+Wire Wire Line
+	6250 3850 6100 3850
+Wire Wire Line
+	6100 4200 6300 4200
+Wire Wire Line
+	6300 4200 6300 3800
+Wire Wire Line
+	6300 3800 6800 3800
+Wire Wire Line
+	5150 4200 5200 4200
+Wire Wire Line
+	5150 3150 5150 4250
+Wire Wire Line
+	5150 3850 5200 3850
+Wire Wire Line
+	5150 4650 5150 4750
+Connection ~ 5150 4750
+Connection ~ 5150 4200
+Connection ~ 5150 3850
+Connection ~ 4150 3150
+$Comp
+L C C23
+U 1 1 55A2BCC2
+P 4850 4450
+F 0 "C23" H 4850 4550 40  0000 L CNN
+F 1 "C" H 4856 4365 40  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 4888 4300 30  0001 C CNN
+F 3 "" H 4850 4450 60  0000 C CNN
+	1    4850 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4650 4850 4750
+Connection ~ 4850 4750
+Wire Wire Line
+	4850 4250 4850 2650
+Wire Wire Line
+	4800 2650 7500 2650
+Wire Wire Line
+	7500 2650 7500 2800
+Text HLabel 4800 2650 0    60   Input ~ 0
+VCC
+Connection ~ 4850 2650
+Text HLabel 4100 3050 0    60   Input ~ 0
+VBUS
+Wire Wire Line
+	4100 3050 4150 3050
+Text HLabel 8300 3200 2    60   Input ~ 0
+TX
+Text HLabel 8300 3300 2    60   Input ~ 0
+RX
+Text HLabel 8300 3400 2    60   Input ~ 0
+RTS
+Text HLabel 8300 3600 2    60   Input ~ 0
+DTR
+NoConn ~ 8300 3500
+NoConn ~ 8300 3700
+NoConn ~ 8300 3800
+NoConn ~ 8300 3900
+NoConn ~ 6800 3900
+NoConn ~ 6800 3600
+Wire Wire Line
+	3000 3650 3200 3650
+Connection ~ 3200 3650
+$EndSCHEMATC

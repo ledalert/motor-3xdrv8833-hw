@@ -32,11 +32,14 @@ LIBS:valves
 LIBS:stm32
 LIBS:vreg
 LIBS:drv8833c
+LIBS:ft231x
+LIBS:usb_micro_b
+LIBS:ver1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -177,23 +180,29 @@ Text HLabel 4250 3650 0    60   Input ~ 0
 GND
 Connection ~ 4350 3650
 $Comp
-L C C?
+L C C15
 U 1 1 55A18D64
 P 8200 2950
-F 0 "C?" H 8200 3050 40  0000 L CNN
+AR Path="/55A04ED0/55A18D64" Ref="C15"  Part="1" 
+AR Path="/55A0C997/55A18D64" Ref="C17"  Part="1" 
+AR Path="/55A0D7E2/55A18D64" Ref="C19"  Part="1" 
+F 0 "C15" H 8200 3050 40  0000 L CNN
 F 1 "OPT" H 8206 2865 40  0000 L CNN
-F 2 "" H 8238 2800 30  0000 C CNN
+F 2 "SMD_Packages:SMD-0603_c" H 8238 2800 30  0001 C CNN
 F 3 "" H 8200 2950 60  0000 C CNN
 	1    8200 2950
 	0    1    1    0   
 $EndComp
 $Comp
-L C C?
+L C C14
 U 1 1 55A18DC9
 P 8200 2600
-F 0 "C?" H 8200 2700 40  0000 L CNN
+AR Path="/55A04ED0/55A18DC9" Ref="C14"  Part="1" 
+AR Path="/55A0C997/55A18DC9" Ref="C16"  Part="1" 
+AR Path="/55A0D7E2/55A18DC9" Ref="C18"  Part="1" 
+F 0 "C14" H 8200 2700 40  0000 L CNN
 F 1 "OPT" H 8206 2515 40  0000 L CNN
-F 2 "" H 8238 2450 30  0000 C CNN
+F 2 "SMD_Packages:SMD-0603_c" H 8238 2450 30  0001 C CNN
 F 3 "" H 8200 2600 60  0000 C CNN
 	1    8200 2600
 	0    1    1    0   

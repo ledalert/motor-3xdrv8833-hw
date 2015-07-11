@@ -1,4 +1,4 @@
-update=lör 11 jul 2015 00:06:02
+update=lör 11 jul 2015 18:52:15
 version=1
 last_client=kicad
 
@@ -63,3 +63,5 @@ LibName30=valves
 LibName31=stm32
 LibName32=vreg
 LibName33=drv8833c
+LibName34=ft231x
+LibName35=usb_micro_b
