@@ -1,0 +1,34 @@
+Motor driving
+
+	Timer	Channel		Inverted	Remapped	Output
+	--------------------------------------------------
+	TIM1	CH1			No			No			M1_A1
+	TIM1	CH2			Yes			No			M1_A2
+	TIM1	CH3			Yes			No			M1_B1
+	TIM1	CH4			No			No			M1_B2
+
+	TIM2	CH1			No			No			M2_A1
+	TIM2	CH2			No			No			M2_A2
+	TIM2	CH3			No			Yes			M2_B1
+	TIM2	CH4			No			Yes			M2_B2
+
+	TIM3	CH1			No			No 			M3_A1
+	TIM3	CH2			No			No			M3_A2
+	TIM3	CH3			No			No			M3_B1
+	TIM3	CH4			No			No			M3_B2
+
+
+
+GPIO	Note: This is only the default mapped features, haven't investigated remapped options
+
+	GPIO	ADC		DAC		UART	PWM		I2C
+	--------------------------------------------
+	GPIO1	1.4		1		No		No		No
+	GPIO2	1.5		2		No		No		No
+	GPIO3	1.2		No		2.Tx	15.1	No
+	GPIO4	1.3		No		2.Rx	15.2	No
+	GPIO5	No		No		No		16.1N	SCL
+	GPIO6	No		No		No		17.1N	SDA
+	GPIO7	No		No		No		16.1	No
+	GPIO8	No		No		No		17.1	No
+
