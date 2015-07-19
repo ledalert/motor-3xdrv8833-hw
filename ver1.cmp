@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-11 BZR 5650)-product   date = lör 11 jul 2015 21:11:09
+Cmp-Mod V01 Created by Cvpcb (2015-05-11 BZR 5650)-product   date = ons 15 jul 2015 10:31:50
 
 BeginCmp
 TimeStamp = /546275E1;
@@ -169,6 +169,20 @@ IdModule  = SMD_Packages:SMD-0603_c;
 EndCmp
 
 BeginCmp
+TimeStamp = /55A70FE6;
+Reference = C25;
+ValeurCmp = 220µF 16V;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A72AD8;
+Reference = C26;
+ValeurCmp = 220µF 16V;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
 TimeStamp = /55A2F6C8;
 Reference = D1;
 ValeurCmp = DIODESCH;
@@ -218,6 +232,34 @@ IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /55A7A9EA;
+Reference = H1;
+ValeurCmp = CONN_1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A7B485;
+Reference = H2;
+ValeurCmp = CONN_1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A7B56E;
+Reference = H3;
+ValeurCmp = CONN_1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A7B659;
+Reference = H4;
+ValeurCmp = CONN_1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
 TimeStamp = /5462884D;
 Reference = P1;
 ValeurCmp = CONN_6;
@@ -257,6 +299,27 @@ TimeStamp = /55A2868D/55A28C68;
 Reference = P6;
 ValeurCmp = USB_Micro_B;
 IdModule  = micro_usb_b:USB MICRO B;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A6EA62;
+Reference = P7;
+ValeurCmp = CONN_3X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A74B2B;
+Reference = P8;
+ValeurCmp = CONN_3X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A636C7/55A638D2;
+Reference = P9;
+ValeurCmp = CONN_4X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
 EndCmp
 
 BeginCmp
